@@ -46,7 +46,7 @@ Wildcards can be used in search for a filename containing specific characters.
 |---------|-----------|
 |?     |Matches any single character|
 |*     |Matches any string of characters|
-|[set] |Matches any character not in the set of characters|
+|[set] |Matches any character in the set of characters|
 |[!set]|Matches any character not in the set of characters|
 
 The ``find`` is extremely useful and often-used utility program in the daily life of a Linux system administrator. It recurses down the filesystem tree from any particular directory (or set of directories) and locates files that match specified conditions. The default <pathname> is always the present working directory.
