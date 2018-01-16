@@ -57,7 +57,7 @@ Check the iSCSI initiator IQN on the initiator machine you want to give access. 
 Back to the target machine and configure Access List to permit access from the initiator machine
 ```
 /> cd /iscsi/iqn.2017-10.com.noverit.centos:3260/tpg1/
-/> acls create iqn.1994-05.com.redhat:client00.noverit.com
+/> /acls create iqn.1994-05.com.redhat:client00.noverit.com
 Created Node ACL for iqn.1994-05.com.redhat:client00.noverit.com
 Created mapped LUN 0.
 /> cd iqn.1994-05.com.redhat:client00.noverit.com
